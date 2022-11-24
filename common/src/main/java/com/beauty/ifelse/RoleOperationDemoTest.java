@@ -1,5 +1,7 @@
 package com.beauty.ifelse;
 
+import com.beauty.DocPlatformHelper;
+
 /**
  * Description: 测试枚举替代ifelse <BR>
  * <p>
@@ -13,7 +15,10 @@ package com.beauty.ifelse;
 public class RoleOperationDemoTest {
 
     public static void main(String[] args) {
+        System.out.println(DocPlatformHelper.DocPlatformTypeEnum.valueOf("DAIYONG").getPlatformName());
         System.out.println(JudgeRole.judge("ROLE_ROOT_ADMIN"));
         System.out.println(RoleEnum.valueOf("ROLE_ROOT_ADMIN").name());
+
+//        System.out.println(JudgeRole.judge("sss"));
     }
 }

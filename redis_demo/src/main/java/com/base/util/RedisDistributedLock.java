@@ -4,6 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 import redis.clients.jedis.Jedis;
 
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 /**
@@ -106,6 +107,9 @@ public class RedisDistributedLock implements IDistributedLock {
                 if (LOCK_SUCCESS.equals(SET_LOCK_STATUS)) {
                     logger.info(String.format("acquire lock success,requestToken:%s", requireToken));
                     logger.info(Thread.currentThread()+"====获取锁成功!");
+                    // TODO 锁续期
+                    startRenewalThread();
+
                     return requireToken;
                 }
                 /*try {
@@ -120,6 +124,26 @@ public class RedisDistributedLock implements IDistributedLock {
             e.printStackTrace();
         }
         return null;
+    }
+
+    private void startRenewalThread() {
+        Thread renewalThread = new Thread(() -> {
+            while (true) {
+                try {
+                    // 避免在锁的初期去延期，这里除以4只是简单实现
+                    TimeUnit.MILLISECONDS.sleep(expireTime / 4);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                Long expire = jedis.pexpire(lockKey, expireTime);
+                if (expire > 0) {
+                    return;
+                }
+            }
+
+        });
+        renewalThread.setDaemon(true);
+        renewalThread.start();
     }
 
     @Override

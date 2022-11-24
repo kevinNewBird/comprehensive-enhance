@@ -53,10 +53,15 @@
             <artifactId>guava</artifactId>
             <version>19.0</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.trs</groupId>-->
+<!--            <artifactId>media_base</artifactId>-->
+<!--            <version>0.8.7</version>-->
+<!--        </dependency>-->
         <dependency>
-            <groupId>com.trs</groupId>
-            <artifactId>media_base</artifactId>
-            <version>0.8.7</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.32</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
@@ -77,6 +82,29 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring</artifactId>
             <version>2.5.6.SEC03</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-email</artifactId>
+            <version>1.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.arronlong</groupId>
+            <artifactId>httpclientutil</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+        <!--引入objectmapper-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.12.2</version>
+        </dependency>
+
+        <!--mybatis的xml文件-->
+        <dependency>
+            <groupId>ognl</groupId>
+            <artifactId>ognl</artifactId>
+            <version>3.2.21</version>
         </dependency>
     </dependencies>
 

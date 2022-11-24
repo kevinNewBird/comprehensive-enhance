@@ -10,6 +10,7 @@ package com.beauty.ifelse;
 public class JudgeRole {
 
     public static String judge(String roleName) {
-        return RoleEnum.valueOf(roleName).op();
+        RoleEnum roleEnum = RoleEnum.valueOf(roleName);
+        return roleEnum.op();
     }
 }

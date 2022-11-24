@@ -1,207 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab6bf24-c273-4c06-8019-7242a2f61565" name="Default Changelist" comment="feat: 初始化提交">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/Behaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/ColorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/EnumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/JudgeRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleOperationDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/helper/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/XMLMapperClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/BaseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/MapperBuilderAssistant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/SqlSourceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/StaticSqlSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/mapper/XMLMapperBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/mapper/XMLStatementBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/xml/XMLIncludeTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/xml/XMLMapperEntityResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/xml/XmlLocateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/xml/mybatis-3-config.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/xml/mybatis-3-mapper.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/xml/mybatis-config.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/xml/mybatis-mapper.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/exceptions/BuilderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/exceptions/IncompleteElementException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/exceptions/PersistenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/exceptions/ScriptingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/executor/ErrorContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/executor/SelectKeyConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/mapping/BoundSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/mapping/MappedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/mapping/SqlCommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/mapping/SqlSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/mapping/StatementType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/parsing/GenericTokenParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/parsing/PropertyParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/parsing/TokenHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/parsing/XNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/parsing/XPathParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/LanguageDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/defaults/RawSqlSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/ChooseSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/DynamicContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/DynamicSqlSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/ExpressionEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/ForEachSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/IfSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/MixedSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/OgnlCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/OgnlClassResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/OgnlMemberAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/SetSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/SqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/StaticTextSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/TextSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/TrimSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/VarDeclSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/WhereSqlNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/XMLLanguageDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/scripting/xmltags/XMLScriptBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/ibatis/session/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/map/BitMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/thread/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/util/email/CommonCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/util/email/EmailUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/util/email/SpecialCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/util/email/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/util/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/util/exception/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/util/webhook/WebHookUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/base/util/workwx/WorkWXUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/beauty/DocPlatformHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/com/base/ibatis/builder/xml/mybatis-3-config.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/com/base/ibatis/builder/xml/mybatis-3-mapper.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/com/base/ibatis/builder/xml/mybatis-config.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/com/base/ibatis/builder/xml/mybatis-mapper.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/dtd/mybatis-3-mapper.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/dtd/mybatis-mapper.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/mapper/EmpDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/mybatis-3-mapper.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/mybatis-mapper.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_demo/src/main/java/com/base/test/RedisDistributedLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/ParticleLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/base/vavr/TryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/base/vavr/TryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c2/CalculatorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c2/CalculatorStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/RedisDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/RedisDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/base/helper/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/base/helper/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/base/helper/HttpClientHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/base/helper/HttpClientHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/base/stream/StreamFlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/base/stream/StreamFlatMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/base/stream/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/base/stream/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/base/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/base/string/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/base/util/time/FileShardingDownLoadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/base/util/time/FileShardingDownLoadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/base/util/time/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/base/util/time/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/base/util/time/VideoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/base/util/time/VideoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/JudgeRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/JudgeRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleOperationDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleOperationDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/base/helper/DemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/base/helper/DemoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/base/helper/HttpClientHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/base/stream/StreamFlatMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/base/stream/StreamFlatMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/base/stream/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/base/stream/StringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/base/string/StringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/base/util/time/FileShardingDownLoadUtil$DownLoadThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/base/util/time/FileShardingDownLoadUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/base/util/time/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/base/util/time/VideoUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/beauty/ifelse/JudgeRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/beauty/ifelse/JudgeRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/beauty/ifelse/RoleOperationDemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/beauty/ifelse/RoleOperationDemoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comprehensive_enhance.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/RedisDistributedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/RedisDistributedLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_demo/target/classes/com/base/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_demo/target/classes/com/base/util/IDistributedLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_demo/target/classes/com/base/util/RedisDemoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_demo/target/classes/com/base/util/RedisDistributedLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_demo/target/classes/com/base/util/RedisDistributedLockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_demo/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_demo/target/classes/props/redis_distribute.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_demo/target/test-classes/com/base/AppTest.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/concurrency/target/" />
-    <ignored path="$PROJECT_DIR$/mq/target/" />
-    <ignored path="$PROJECT_DIR$/db/target/" />
-    <ignored path="$PROJECT_DIR$/redis_demo/target/" />
-    <ignored path="$PROJECT_DIR$/common/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1099285211">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="21" />
-          <entry key="project.open.time.0" value="16" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="5" />
-          <entry key="project.open.time.3" value="5" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="38" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="7236" />
-          <entry key="properties" value="21" />
-          <entry key="txt" value="15" />
-          <entry key="xml" value="204" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="7236" />
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Properties" value="21" />
-          <entry key="XML" value="204" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="2" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="176" />
-          <entry key="properties" value="6" />
-          <entry key="xml" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="176" />
-          <entry key="Properties" value="6" />
-          <entry key="XML" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.checkout.local" value="2" />
-          <entry key="git.branch.create.new" value="1" />
-          <entry key="git.branch.merge" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/redis_demo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/JudgeRole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleOperationDemoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/EnumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/Behaviour.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/ColorEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-              <folding>
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>setDaiBianTopNews</find>
-      <find>net.json</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -211,363 +139,84 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c2/TaxCalaculatorMain.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c2/TicketWindow.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c3/CreateThread.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c3/CreateThread2.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c3/CreateThread3.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c3/CreateThread4.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c3/CreateThread5.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c4/DaemonThread.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c4/DaemonThread2.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c4/DaemonThread3.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c4/DaemonThread4.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c4/ThreadSimpleAPI.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c5/ThreadCommonAPITest.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c5/ThreadJoinUsage.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c5/ThreadJoinUsage2.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c6/ThreadCloseGraceful1.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c6/ThreadCloseForce.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c6/ThreadService.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c6/ThreadCloseGraceful2.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c6/ThreadInterrupt.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c7/BankVersion2.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c7/TicketWindowVersion2.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c7/SynchronizedThis.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c7/SynchronizedTest.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c7/SynchronizedStaticTest.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c7/SynchronizedStatic.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c7/SynchronizedRunnable.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c7/BankVersion3.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c8/DeadLock.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c8/DeadLockTest.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c8/OtherService.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c9/ProducerConsumerV1.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c9/ProducerConsumerV2.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/base/genericity/IAnimal.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/base/genericity/Cat.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/base/genericity/Dog.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/base/sort/GDOrderTest.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/base/genericity/GenericTypeTest.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/base/sort/MetaData.java" />
-        <option value="$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/RedisDistributedLockTest.java" />
-        <option value="$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/RedisDistributedLock.java" />
-        <option value="$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c2/CalculatorStrategy.java" />
-        <option value="$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/RedisDemoTest.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleOperation.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleEnum.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/JudgeRole.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleOperationDemoTest.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/Behaviour.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/ColorEnum.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/EnumTest.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/base/vavr/TryTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Software/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\Software\apache-maven-3.8.1\conf\settings-ali.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="comprehensive_enhance" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="comprehensive_enhance" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="concurrency" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="db" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="redis_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="redis_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1908" />
-    <option name="y" value="-12" />
-    <option name="width" value="2579" />
-    <option name="height" value="1414" />
-  </component>
+  <component name="ProjectId" id="1gaPsEoCkebrVVMoz2vuP8HHCjN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="vavr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="beauty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="enum_learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="ifelse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="base_level" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="redis_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="redis_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="redis_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive_enhance" type="462c0819:PsiDirectoryNode" />
-              <item name="redis_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="props" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive_enhance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592480646685" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/resources/mapper" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="VisualVMLauncher" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\work\personal\comprehensive_enhance\common\src\resources" />
-      <recent name="E:\work\personal\comprehensive_enhance\common\src\main\java\com\base\sort" />
+      <recent name="D:\work\personal\comprehensive_enhance\common\src\main\resources\mapper" />
+      <recent name="D:\work\personal\comprehensive_enhance\common\src\main\resources\dtd" />
+      <recent name="D:\work\personal\comprehensive_enhance\common\src\main\resources" />
+      <recent name="D:\work\personal\comprehensive_enhance\common\src\main\resources\com\base\ibatis\builder\xml" />
+      <recent name="D:\work\personal\comprehensive_enhance\common\src\main\java\com\base\ibatis\builder\xml" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\personal\comprehensive_enhance\common\src\main\resources\mapper" />
+      <recent name="D:\work\personal\comprehensive_enhance\common\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.base.ibatis.mapping" />
+      <recent name="com.base.ibatis.exceptions" />
+      <recent name="com.base.ibatis.scripting.xmltags" />
+      <recent name="com.base.ibatis.executor" />
+      <recent name="com.base.ibatis.builder" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.TryTest">
-    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.beauty.enum_learning.EnumTest" />
+  <component name="RunManager" selected="Application.ThreadTest (1)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BitMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.map.BitMap" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beauty.enum_learning.*" />
+          <option name="PATTERN" value="com.base.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -575,38 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisDemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.util.RedisDemoTest" />
-      <module name="redis_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisDistributedLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.util.RedisDistributedLockTest" />
-      <module name="redis_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RoleOperationDemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.beauty.ifelse.RoleOperationDemoTest" />
+    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.helper.DemoTest" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beauty.ifelse.*" />
+          <option name="PATTERN" value="com.base.helper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -614,12 +237,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.vavr.TryTest" />
+    <configuration name="ThreadTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.helper.ThreadTest" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.vavr.*" />
+          <option name="PATTERN" value="com.base.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLMapperClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.ibatis.XMLMapperClient" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.ibatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XPathParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.ibatis.parsing.XPathParser" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.ibatis.parsing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -628,22 +277,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RedisDistributedLockTest" />
-      <item itemvalue="Application.RedisDemoTest" />
-      <item itemvalue="Application.RoleOperationDemoTest" />
-      <item itemvalue="Application.EnumTest" />
-      <item itemvalue="Application.TryTest" />
+      <item itemvalue="Application.XPathParser" />
+      <item itemvalue="Application.XMLMapperClient" />
+      <item itemvalue="Application.BitMap" />
+      <item itemvalue="Application.DemoTest" />
+      <item itemvalue="Application.ThreadTest (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TryTest" />
-        <item itemvalue="Application.EnumTest" />
-        <item itemvalue="Application.RoleOperationDemoTest" />
-        <item itemvalue="Application.RedisDemoTest" />
-        <item itemvalue="Application.RedisDistributedLockTest" />
+        <item itemvalue="Application.ThreadTest (1)" />
+        <item itemvalue="Application.DemoTest" />
+        <item itemvalue="Application.XPathParser" />
+        <item itemvalue="Application.BitMap" />
+        <item itemvalue="Application.XMLMapperClient" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
   </component>
@@ -695,94 +345,185 @@
       <workItem from="1592483086026" duration="446000" />
       <workItem from="1592793438900" duration="51000" />
       <workItem from="1594192450953" duration="28000" />
+      <workItem from="1598347786945" duration="185000" />
+      <workItem from="1598349942277" duration="257000" />
+      <workItem from="1598352180930" duration="4000" />
+      <workItem from="1600911492869" duration="3748000" />
+      <workItem from="1600963188535" duration="1187000" />
+      <workItem from="1600997709470" duration="1191000" />
+      <workItem from="1601096033660" duration="1191000" />
+      <workItem from="1601218835786" duration="1332000" />
+      <workItem from="1604309964744" duration="2477000" />
+      <workItem from="1605592827536" duration="1741000" />
+      <workItem from="1658891548703" duration="3675000" />
+      <workItem from="1660178221036" duration="17158000" />
+      <workItem from="1660267156393" duration="920000" />
+      <workItem from="1660524277031" duration="607000" />
+      <workItem from="1660784636044" duration="1535000" />
+      <workItem from="1661320173085" duration="3900000" />
+      <workItem from="1661997134528" duration="2604000" />
+      <workItem from="1662381532486" duration="21000" />
+      <workItem from="1662381572917" duration="591000" />
+      <workItem from="1662454646838" duration="4301000" />
+      <workItem from="1662686918468" duration="595000" />
+      <workItem from="1663065178904" duration="594000" />
+      <workItem from="1663165383580" duration="450000" />
+      <workItem from="1663232516414" duration="2639000" />
+      <workItem from="1663323379062" duration="2187000" />
+      <workItem from="1663556208759" duration="1338000" />
+      <workItem from="1663572168739" duration="6622000" />
+      <workItem from="1663634909243" duration="27351000" />
+      <workItem from="1663721392104" duration="1797000" />
+      <workItem from="1663729551132" duration="7923000" />
+      <workItem from="1664159975099" duration="2285000" />
+      <workItem from="1664247481689" duration="4533000" />
+      <workItem from="1664326149591" duration="29000" />
+      <workItem from="1664326190199" duration="9178000" />
+      <workItem from="1664415297449" duration="2031000" />
+      <workItem from="1664432034128" duration="3621000" />
+      <workItem from="1665633517204" duration="1963000" />
+      <workItem from="1666059205771" duration="7787000" />
+      <workItem from="1666144575875" duration="1365000" />
+      <workItem from="1666154660172" duration="3854000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80175000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="2448" height="1344" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24078727" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Alibaba Cloud Explorer" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38893476" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41609195" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.23616846" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27617952" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.328654" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32977527" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Alibaba Function Compute" order="9" />
-      <window_info anchor="right" id="Alibaba Log Console" order="10" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Vector.java</url>
+          <url>jar://$PROJECT_DIR$/../../../Java/jdk1.8.0_191/src.zip!/java/util/Vector.java</url>
           <line>816</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Vector.java</url>
+          <url>jar://$PROJECT_DIR$/../../../Java/jdk1.8.0_191/src.zip!/java/util/Vector.java</url>
           <line>598</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Vector.java</url>
+          <url>jar://$PROJECT_DIR$/../../../Java/jdk1.8.0_191/src.zip!/java/util/Vector.java</url>
           <line>150</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Vector.java</url>
+          <url>jar://$PROJECT_DIR$/../../../Java/jdk1.8.0_191/src.zip!/java/util/Vector.java</url>
           <line>133</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/RedisDistributedLock.java</url>
-          <line>139</line>
-          <properties />
+          <line>163</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/util/workwx/WorkWXUtil.java</url>
+          <line>190</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/util/workwx/WorkWXUtil.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/util/workwx/WorkWXUtil.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/ibatis/parsing/XPathParser.java</url>
+          <line>242</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/ibatis/parsing/XPathParser.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/xml/XMLMapperEntityResolver.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/ibatis/parsing/XPathParser.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/ibatis/parsing/XPathParser.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/ibatis/XMLMapperClient.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/map/BitMap.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/xml/XmlLocateHandler.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/ibatis/builder/xml/XmlLocateHandler.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/base/helper/ThreadTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -822,446 +563,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c7/SynchronizedRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c7/TicketWindowVersion2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c8/DeadLockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/base/genericity/IAnimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/base/genericity/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/base/genericity/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="152" column="40" lean-forward="true" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="584" column="9" selection-start-line="584" selection-start-column="9" selection-end-line="584" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/base/sort.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/base/genericity/GenericTypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/base/sort/GDOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2684">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-          <folding>
-            <element signature="e#5590#5591#0" expanded="true" />
-            <element signature="e#30852#30853#0" expanded="true" />
-            <element signature="e#30899#30900#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c8/OtherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="114" column="10" lean-forward="true" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Jedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/base/sort/MetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c9/ProducerConsumerV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/IDistributedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/RedisDistributedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2398">
-          <caret line="113" column="55" selection-start-line="113" selection-start-column="55" selection-end-line="113" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis_demo/src/resource/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c1/TryConcurrency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c2/CalculatorStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c2/TaxCalaculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c2/TaxCalaculatorMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c8/DeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c9/ProducerConsumerV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse.java" />
-    <entry file="file://$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/RedisDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/base/vavr/CollectionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis_demo/src/main/java/com/base/util/RedisDistributedLockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/src/main/java/com/base/base_level/c7/BankVersion3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vavr/vavr/0.9.0/vavr-0.9.0-sources.jar!/io/vavr/control/Try.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="70" column="6" lean-forward="true" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/base/vavr/TryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10252">
-          <caret line="512" column="70" selection-start-line="512" selection-start-column="70" selection-end-line="512" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/JudgeRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/ifelse/RoleOperationDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/EnumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/Behaviour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/beauty/enum_learning/ColorEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis_demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>redis_demo</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.vdurmont:emoji-java:4.0.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

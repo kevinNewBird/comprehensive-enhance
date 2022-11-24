@@ -13,6 +13,15 @@ import java.util.stream.Stream;
 public class StreamFlatMap {
 
     public static void main(String[] args) {
+//        String s1 = "SELECT upper(c3) 测试c3,lower(c7) 测试c7,rowid ro_new from ORACLE19_MATER_VIEW.test_ma_view1;";
+        String s1 = "rowid";
+//        System.out.println(s1.matches("\\b(?i)old.id\\s*\\S*"));
+
+//        System.out.println(s1.matches("(?i)select\\s+[^;]*\browid\b((?!;)[.\\r\\n])*;"));
+
+        System.out.println(s1.matches("\\b(?i)rowid\\s*\\S*"));
+
+
         /*String[] strArr = new String[]{"heLlo", "world"};
         List<String> list = Arrays.stream(strArr)
                 .map(word -> word.split(""))
